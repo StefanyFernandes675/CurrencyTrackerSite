@@ -1,6 +1,6 @@
 # Currency Tracker
 
-
+![currencytracker](https://github.com/StefanyFernandes675/CurrencyTrackerSite/assets/82242611/ac26954c-b3db-4525-a4e3-78db47f756c8)
 
 Site para exibir informações da cotação do dólar e outras moedas.
 
