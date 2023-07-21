@@ -160,11 +160,11 @@ section h3{
 }
 
 .cards .card-title{
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     color: var(--text-color-secondary)
 }
 .cards .card-value{
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     color: var(--text-color-terciary)
 }
 
