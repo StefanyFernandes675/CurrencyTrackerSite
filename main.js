@@ -2,11 +2,9 @@
 const cardTitleElement = document.querySelectorAll('.card-title');
 const cardValueElement = document.querySelectorAll('.card-value');
 
-fetch("https://cors-everywhere.onrender.com/https://api.hgbrasil.com/finance")
+fetch("https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=BTC&to_currency=BRL&apikey=3CA5NGFKV8X0LY1K")
     .then(response => response.json())
     .then(data => {
-        const results = data.results;
-        const currencies = results.currencies;
-        const stocks = results.stocks;
+        const results = data['Realtime Currency Exchange Rate'];
         console.log(results)
     })
